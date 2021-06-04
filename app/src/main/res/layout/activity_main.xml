@@ -9,9 +9,11 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="391dp">
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <TableRow
             android:layout_width="match_parent"
@@ -21,145 +23,161 @@
             <Button
                 android:id="@+id/clearBTn"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/clear" />
+                android:layout_weight="1"
+                android:text="@string/clear"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/parenthesesBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/parentheses" />
+                android:layout_weight="1"
+                android:text="@string/parentheses"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/exponentBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/exponent" />
+                android:layout_weight="1"
+                android:text="@string/exponent"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/divisionBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/divide" />
+                android:layout_weight="1"
+                android:text="@string/divide"
+                android:textColor="@color/black" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/sevenBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/seven" />
+                android:layout_weight="1"
+                android:text="@string/seven"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/eightBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/eight" />
+                android:layout_weight="1"
+                android:text="@string/eight"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/nineBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/nine" />
+                android:layout_weight="1"
+                android:text="@string/nine"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/multiplicationBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/multiply" />
+                android:layout_weight="1"
+                android:text="@string/multiply"
+                android:textColor="@color/black" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/fourBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/four" />
+                android:layout_weight="1"
+                android:text="@string/four"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/fiveBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/five" />
+                android:layout_weight="1"
+                android:text="@string/five"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/sixBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/six" />
+                android:layout_weight="1"
+                android:text="@string/six"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/substractionBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/substract" />
+                android:layout_weight="1"
+                android:text="@string/substract"
+                android:textColor="@color/black" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Button
                 android:id="@+id/oneBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/one" />
+                android:layout_weight="1"
+                android:text="@string/one"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/twoBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/two" />
+                android:layout_weight="1"
+                android:text="@string/two"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/threeBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/three" />
+                android:layout_weight="1"
+                android:text="@string/three"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/plusBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/add" />
+                android:layout_weight="1"
+                android:text="@string/add"
+                android:textColor="@color/black" />
 
         </TableRow>
 
@@ -170,34 +188,47 @@
             <Button
                 android:id="@+id/zeroBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/zero" />
+                android:layout_weight="1"
+                android:text="@string/zero"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/pointBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/point" />
+                android:layout_weight="1"
+                android:text="@string/point"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/plusMinusBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/plusMinus" />
+                android:layout_weight="1"
+                android:text="@string/plusMinus"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/equalsBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/equals" />
+                android:layout_weight="1"
+                android:text="@string/equals"
+                android:textColor="@color/black" />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
