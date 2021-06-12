@@ -32,8 +32,7 @@
                 android:textColor="#FFFFFF"
                 android:background="@drawable/circle"
                 android:layout_margin="6dp"
-                android:textSize="25sp"
-                android:backgroundTint="#dd2c00" />
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/parenthesesBTN"
@@ -282,8 +281,7 @@
                 android:textColor="#FFFFFF"
                 android:background="@drawable/circle"
                 android:layout_margin="6dp"
-                android:textSize="25sp"
-                android:backgroundTint="#43A047"/>
+                android:textSize="25sp" />
         </TableRow>
     </TableLayout>
 
@@ -300,7 +298,6 @@
         android:inputType="none"
         android:textSize="36sp"
         android:textAlignment="textEnd"
-
         tools:ignore="LabelFor"/>
 
     <ImageButton
